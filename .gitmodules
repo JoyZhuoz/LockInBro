@@ -1,0 +1,4 @@
+[submodule "lockinbro-api"]
+	path = lockinbro-api
+	url = https://github.com/LockInBro/lockinbro-api.git
+	branch = main
