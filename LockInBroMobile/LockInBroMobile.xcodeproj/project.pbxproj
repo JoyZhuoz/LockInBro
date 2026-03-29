@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86671E252F78D22800AECA00 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86671E242F78D22800AECA00 /* WidgetKit.framework */; };
+		86671E272F78D22800AECA00 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86671E262F78D22800AECA00 /* SwiftUI.framework */; };
+		86671E382F78D22A00AECA00 /* LockInBroWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 86671E222F78D22700AECA00 /* LockInBroWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		867837FD2F790A6D009A3DB6 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867837FC2F790A6C009A3DB6 /* DeviceActivity.framework */; };
+		867838052F790A6D009A3DB6 /* LockInBroMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 867837FB2F790A6C009A3DB6 /* LockInBroMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		867838102F790B7A009A3DB6 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8678380F2F790B7A009A3DB6 /* ManagedSettings.framework */; };
+		867838122F790B7A009A3DB6 /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867838112F790B7A009A3DB6 /* ManagedSettingsUI.framework */; };
+		8678381A2F790B7A009A3DB6 /* LockInBroShield.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8678380E2F790B7A009A3DB6 /* LockInBroShield.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		867838242F790BA3009A3DB6 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8678380F2F790B7A009A3DB6 /* ManagedSettings.framework */; };
+		8678382C2F790BA3009A3DB6 /* LockInBroShieldAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 867838232F790BA3009A3DB6 /* LockInBroShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86A1B0012F78C00000000001 /* distil-whisper_distil-large-v3_594MB in Resources */ = {isa = PBXBuildFile; fileRef = 86A1B0002F78C00000000001 /* distil-whisper_distil-large-v3_594MB */; };
+		86DB67782F78ACC4006F5BB4 /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86DB67772F78ACC4006F5BB4 /* WhisperKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86671E362F78D22A00AECA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C526A82F78617A003020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86671E212F78D22700AECA00;
+			remoteInfo = LockInBroWidgetExtension;
+		};
+		867838032F790A6D009A3DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C526A82F78617A003020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867837FA2F790A6C009A3DB6;
+			remoteInfo = LockInBroMonitor;
+		};
+		867838182F790B7A009A3DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C526A82F78617A003020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8678380D2F790B7A009A3DB6;
+			remoteInfo = LockInBroShield;
+		};
+		8678382A2F790BA3009A3DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C526A82F78617A003020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 867838222F790BA3009A3DB6;
+			remoteInfo = LockInBroShieldAction;
+		};
+		86C526BE2F78617D003020AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C526A82F78617A003020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C526AF2F78617A003020AD;
+			remoteInfo = LockInBroMobile;
+		};
+		86C526C82F78617D003020AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C526A82F78617A003020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C526AF2F78617A003020AD;
+			remoteInfo = LockInBroMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86671E392F78D22A00AECA00 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8678381A2F790B7A009A3DB6 /* LockInBroShield.appex in Embed Foundation Extensions */,
+				8678382C2F790BA3009A3DB6 /* LockInBroShieldAction.appex in Embed Foundation Extensions */,
+				86671E382F78D22A00AECA00 /* LockInBroWidgetExtension.appex in Embed Foundation Extensions */,
+				867838052F790A6D009A3DB6 /* LockInBroMonitor.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86671E222F78D22700AECA00 /* LockInBroWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LockInBroWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		86671E242F78D22800AECA00 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		86671E262F78D22800AECA00 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		867837FB2F790A6C009A3DB6 /* LockInBroMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LockInBroMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		867837FC2F790A6C009A3DB6 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		8678380E2F790B7A009A3DB6 /* LockInBroShield.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LockInBroShield.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8678380F2F790B7A009A3DB6 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		867838112F790B7A009A3DB6 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		867838232F790BA3009A3DB6 /* LockInBroShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LockInBroShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A1B0002F78C00000000001 /* distil-whisper_distil-large-v3_594MB */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "distil-whisper_distil-large-v3_594MB"; path = "LockInBroMobile/distil-whisper_distil-large-v3_594MB"; sourceTree = "<group>"; };
+		86C526B02F78617A003020AD /* LockInBroMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockInBroMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C526BD2F78617D003020AD /* LockInBroMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockInBroMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C526C72F78617D003020AD /* LockInBroMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockInBroMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		86671E3D2F78D22A00AECA00 /* Exceptions for "LockInBroWidget" folder in "LockInBroWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 86671E212F78D22700AECA00 /* LockInBroWidgetExtension */;
+		};
+		86671E452F78D63000AECA00 /* Exceptions for "LockInBroMobile" folder in "LockInBroWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/FocusSessionAttributes.swift,
+			);
+			target = 86671E212F78D22700AECA00 /* LockInBroWidgetExtension */;
+		};
+		8668468D2F78B58300E1A5DF /* Exceptions for "LockInBroMobile" folder in "LockInBroMobile" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 86C526AF2F78617A003020AD /* LockInBroMobile */;
+		};
+		867838092F790A6D009A3DB6 /* Exceptions for "LockInBroMonitor" folder in "LockInBroMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 867837FA2F790A6C009A3DB6 /* LockInBroMonitor */;
+		};
+		8678381E2F790B7A009A3DB6 /* Exceptions for "LockInBroShield" folder in "LockInBroShield" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8678380D2F790B7A009A3DB6 /* LockInBroShield */;
+		};
+		867838302F790BA3009A3DB6 /* Exceptions for "LockInBroShieldAction" folder in "LockInBroShieldAction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 867838222F790BA3009A3DB6 /* LockInBroShieldAction */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		86671E282F78D22800AECA00 /* LockInBroWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				86671E3D2F78D22A00AECA00 /* Exceptions for "LockInBroWidget" folder in "LockInBroWidgetExtension" target */,
+			);
+			path = LockInBroWidget;
+			sourceTree = "<group>";
+		};
+		867837FE2F790A6D009A3DB6 /* LockInBroMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				867838092F790A6D009A3DB6 /* Exceptions for "LockInBroMonitor" folder in "LockInBroMonitor" target */,
+			);
+			path = LockInBroMonitor;
+			sourceTree = "<group>";
+		};
+		867838132F790B7A009A3DB6 /* LockInBroShield */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8678381E2F790B7A009A3DB6 /* Exceptions for "LockInBroShield" folder in "LockInBroShield" target */,
+			);
+			path = LockInBroShield;
+			sourceTree = "<group>";
+		};
+		867838252F790BA3009A3DB6 /* LockInBroShieldAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				867838302F790BA3009A3DB6 /* Exceptions for "LockInBroShieldAction" folder in "LockInBroShieldAction" target */,
+			);
+			path = LockInBroShieldAction;
+			sourceTree = "<group>";
+		};
+		86C526B22F78617A003020AD /* LockInBroMobile */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8668468D2F78B58300E1A5DF /* Exceptions for "LockInBroMobile" folder in "LockInBroMobile" target */,
+				86671E452F78D63000AECA00 /* Exceptions for "LockInBroMobile" folder in "LockInBroWidgetExtension" target */,
+			);
+			path = LockInBroMobile;
+			sourceTree = "<group>";
+		};
+		86C526C02F78617D003020AD /* LockInBroMobileTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LockInBroMobileTests;
+			sourceTree = "<group>";
+		};
+		86C526CA2F78617D003020AD /* LockInBroMobileUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LockInBroMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86671E1F2F78D22700AECA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86671E272F78D22800AECA00 /* SwiftUI.framework in Frameworks */,
+				86671E252F78D22800AECA00 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867837F82F790A6C009A3DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867837FD2F790A6D009A3DB6 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8678380B2F790B7A009A3DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867838102F790B7A009A3DB6 /* ManagedSettings.framework in Frameworks */,
+				867838122F790B7A009A3DB6 /* ManagedSettingsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867838202F790BA3009A3DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867838242F790BA3009A3DB6 /* ManagedSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526AD2F78617A003020AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DB67782F78ACC4006F5BB4 /* WhisperKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526BA2F78617D003020AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526C42F78617D003020AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86671E232F78D22700AECA00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86671E242F78D22800AECA00 /* WidgetKit.framework */,
+				86671E262F78D22800AECA00 /* SwiftUI.framework */,
+				867837FC2F790A6C009A3DB6 /* DeviceActivity.framework */,
+				8678380F2F790B7A009A3DB6 /* ManagedSettings.framework */,
+				867838112F790B7A009A3DB6 /* ManagedSettingsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C526A72F78617A003020AD = {
+			isa = PBXGroup;
+			children = (
+				86A1B0002F78C00000000001 /* distil-whisper_distil-large-v3_594MB */,
+				86C526B22F78617A003020AD /* LockInBroMobile */,
+				86C526C02F78617D003020AD /* LockInBroMobileTests */,
+				86C526CA2F78617D003020AD /* LockInBroMobileUITests */,
+				86671E282F78D22800AECA00 /* LockInBroWidget */,
+				867837FE2F790A6D009A3DB6 /* LockInBroMonitor */,
+				867838132F790B7A009A3DB6 /* LockInBroShield */,
+				867838252F790BA3009A3DB6 /* LockInBroShieldAction */,
+				86671E232F78D22700AECA00 /* Frameworks */,
+				86C526B12F78617A003020AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C526B12F78617A003020AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C526B02F78617A003020AD /* LockInBroMobile.app */,
+				86C526BD2F78617D003020AD /* LockInBroMobileTests.xctest */,
+				86C526C72F78617D003020AD /* LockInBroMobileUITests.xctest */,
+				86671E222F78D22700AECA00 /* LockInBroWidgetExtension.appex */,
+				867837FB2F790A6C009A3DB6 /* LockInBroMonitor.appex */,
+				8678380E2F790B7A009A3DB6 /* LockInBroShield.appex */,
+				867838232F790BA3009A3DB6 /* LockInBroShieldAction.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86671E212F78D22700AECA00 /* LockInBroWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86671E3C2F78D22A00AECA00 /* Build configuration list for PBXNativeTarget "LockInBroWidgetExtension" */;
+			buildPhases = (
+				86671E1E2F78D22700AECA00 /* Sources */,
+				86671E1F2F78D22700AECA00 /* Frameworks */,
+				86671E202F78D22700AECA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				86671E282F78D22800AECA00 /* LockInBroWidget */,
+			);
+			name = LockInBroWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = LockInBroWidgetExtension;
+			productReference = 86671E222F78D22700AECA00 /* LockInBroWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		867837FA2F790A6C009A3DB6 /* LockInBroMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867838082F790A6D009A3DB6 /* Build configuration list for PBXNativeTarget "LockInBroMonitor" */;
+			buildPhases = (
+				867837F72F790A6C009A3DB6 /* Sources */,
+				867837F82F790A6C009A3DB6 /* Frameworks */,
+				867837F92F790A6C009A3DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				867837FE2F790A6D009A3DB6 /* LockInBroMonitor */,
+			);
+			name = LockInBroMonitor;
+			packageProductDependencies = (
+			);
+			productName = LockInBroMonitor;
+			productReference = 867837FB2F790A6C009A3DB6 /* LockInBroMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8678380D2F790B7A009A3DB6 /* LockInBroShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8678381B2F790B7A009A3DB6 /* Build configuration list for PBXNativeTarget "LockInBroShield" */;
+			buildPhases = (
+				8678380A2F790B7A009A3DB6 /* Sources */,
+				8678380B2F790B7A009A3DB6 /* Frameworks */,
+				8678380C2F790B7A009A3DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				867838132F790B7A009A3DB6 /* LockInBroShield */,
+			);
+			name = LockInBroShield;
+			packageProductDependencies = (
+			);
+			productName = LockInBroShield;
+			productReference = 8678380E2F790B7A009A3DB6 /* LockInBroShield.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		867838222F790BA3009A3DB6 /* LockInBroShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8678382D2F790BA3009A3DB6 /* Build configuration list for PBXNativeTarget "LockInBroShieldAction" */;
+			buildPhases = (
+				8678381F2F790BA3009A3DB6 /* Sources */,
+				867838202F790BA3009A3DB6 /* Frameworks */,
+				867838212F790BA3009A3DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				867838252F790BA3009A3DB6 /* LockInBroShieldAction */,
+			);
+			name = LockInBroShieldAction;
+			packageProductDependencies = (
+			);
+			productName = LockInBroShieldAction;
+			productReference = 867838232F790BA3009A3DB6 /* LockInBroShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		86C526AF2F78617A003020AD /* LockInBroMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C526D12F78617D003020AD /* Build configuration list for PBXNativeTarget "LockInBroMobile" */;
+			buildPhases = (
+				86C526AC2F78617A003020AD /* Sources */,
+				86C526AD2F78617A003020AD /* Frameworks */,
+				86C526AE2F78617A003020AD /* Resources */,
+				86671E392F78D22A00AECA00 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86671E372F78D22A00AECA00 /* PBXTargetDependency */,
+				867838042F790A6D009A3DB6 /* PBXTargetDependency */,
+				867838192F790B7A009A3DB6 /* PBXTargetDependency */,
+				8678382B2F790BA3009A3DB6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86C526B22F78617A003020AD /* LockInBroMobile */,
+			);
+			name = LockInBroMobile;
+			packageProductDependencies = (
+				86DB67772F78ACC4006F5BB4 /* WhisperKit */,
+			);
+			productName = LockInBroMobile;
+			productReference = 86C526B02F78617A003020AD /* LockInBroMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86C526BC2F78617D003020AD /* LockInBroMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C526D42F78617D003020AD /* Build configuration list for PBXNativeTarget "LockInBroMobileTests" */;
+			buildPhases = (
+				86C526B92F78617D003020AD /* Sources */,
+				86C526BA2F78617D003020AD /* Frameworks */,
+				86C526BB2F78617D003020AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C526BF2F78617D003020AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86C526C02F78617D003020AD /* LockInBroMobileTests */,
+			);
+			name = LockInBroMobileTests;
+			packageProductDependencies = (
+			);
+			productName = LockInBroMobileTests;
+			productReference = 86C526BD2F78617D003020AD /* LockInBroMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86C526C62F78617D003020AD /* LockInBroMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C526D72F78617D003020AD /* Build configuration list for PBXNativeTarget "LockInBroMobileUITests" */;
+			buildPhases = (
+				86C526C32F78617D003020AD /* Sources */,
+				86C526C42F78617D003020AD /* Frameworks */,
+				86C526C52F78617D003020AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C526C92F78617D003020AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86C526CA2F78617D003020AD /* LockInBroMobileUITests */,
+			);
+			name = LockInBroMobileUITests;
+			packageProductDependencies = (
+			);
+			productName = LockInBroMobileUITests;
+			productReference = 86C526C72F78617D003020AD /* LockInBroMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C526A82F78617A003020AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					86671E212F78D22700AECA00 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					867837FA2F790A6C009A3DB6 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					8678380D2F790B7A009A3DB6 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					867838222F790BA3009A3DB6 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					86C526AF2F78617A003020AD = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					86C526BC2F78617D003020AD = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 86C526AF2F78617A003020AD;
+					};
+					86C526C62F78617D003020AD = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 86C526AF2F78617A003020AD;
+					};
+				};
+			};
+			buildConfigurationList = 86C526AB2F78617A003020AD /* Build configuration list for PBXProject "LockInBroMobile" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C526A72F78617A003020AD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				86DB67762F78ACC4006F5BB4 /* XCRemoteSwiftPackageReference "WhisperKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86C526B12F78617A003020AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C526AF2F78617A003020AD /* LockInBroMobile */,
+				86C526BC2F78617D003020AD /* LockInBroMobileTests */,
+				86C526C62F78617D003020AD /* LockInBroMobileUITests */,
+				86671E212F78D22700AECA00 /* LockInBroWidgetExtension */,
+				867837FA2F790A6C009A3DB6 /* LockInBroMonitor */,
+				8678380D2F790B7A009A3DB6 /* LockInBroShield */,
+				867838222F790BA3009A3DB6 /* LockInBroShieldAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86671E202F78D22700AECA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867837F92F790A6C009A3DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8678380C2F790B7A009A3DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867838212F790BA3009A3DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526AE2F78617A003020AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A1B0012F78C00000000001 /* distil-whisper_distil-large-v3_594MB in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526BB2F78617D003020AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526C52F78617D003020AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86671E1E2F78D22700AECA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867837F72F790A6C009A3DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8678380A2F790B7A009A3DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8678381F2F790BA3009A3DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526AC2F78617A003020AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526B92F78617D003020AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C526C32F78617D003020AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86671E372F78D22A00AECA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86671E212F78D22700AECA00 /* LockInBroWidgetExtension */;
+			targetProxy = 86671E362F78D22A00AECA00 /* PBXContainerItemProxy */;
+		};
+		867838042F790A6D009A3DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867837FA2F790A6C009A3DB6 /* LockInBroMonitor */;
+			targetProxy = 867838032F790A6D009A3DB6 /* PBXContainerItemProxy */;
+		};
+		867838192F790B7A009A3DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8678380D2F790B7A009A3DB6 /* LockInBroShield */;
+			targetProxy = 867838182F790B7A009A3DB6 /* PBXContainerItemProxy */;
+		};
+		8678382B2F790BA3009A3DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 867838222F790BA3009A3DB6 /* LockInBroShieldAction */;
+			targetProxy = 8678382A2F790BA3009A3DB6 /* PBXContainerItemProxy */;
+		};
+		86C526BF2F78617D003020AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C526AF2F78617A003020AD /* LockInBroMobile */;
+			targetProxy = 86C526BE2F78617D003020AD /* PBXContainerItemProxy */;
+		};
+		86C526C92F78617D003020AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C526AF2F78617A003020AD /* LockInBroMobile */;
+			targetProxy = 86C526C82F78617D003020AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86671E3A2F78D22A00AECA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86671E3B2F78D22A00AECA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		867838062F790A6D009A3DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockInBroMonitor/LockInBroMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		867838072F790A6D009A3DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockInBroMonitor/LockInBroMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8678381C2F790B7A009A3DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockInBroShield/LockInBroShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroShield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroShield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8678381D2F790B7A009A3DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockInBroShield/LockInBroShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroShield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroShield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8678382E2F790BA3009A3DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockInBroShieldAction/LockInBroShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroShieldAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8678382F2F790BA3009A3DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LockInBroShieldAction/LockInBroShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LockInBroShieldAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile.LockInBroShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86C526CF2F78617D003020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86C526D02F78617D003020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C526D22F78617D003020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LockInBroMobile/LockInBroMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroMobile/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To power BrainDump, we need to be able to turn your voice into text. Speak naturally! We'll take care of all the rest.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To power BrainDump, we need to be able to turn your voice into text. Speak naturally! We'll take care of all the rest.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86C526D32F78617D003020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LockInBroMobile/LockInBroMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LockInBroMobile/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To power BrainDump, we need to be able to turn your voice into text. Speak naturally! We'll take care of all the rest.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "To power BrainDump, we need to be able to turn your voice into text. Speak naturally! We'll take care of all the rest.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86C526D52F78617D003020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockInBroMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockInBroMobile";
+			};
+			name = Debug;
+		};
+		86C526D62F78617D003020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockInBroMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockInBroMobile";
+			};
+			name = Release;
+		};
+		86C526D82F78617D003020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockInBroMobile;
+			};
+			name = Debug;
+		};
+		86C526D92F78617D003020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK2DB9NT3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adipu.LockInBroMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockInBroMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86671E3C2F78D22A00AECA00 /* Build configuration list for PBXNativeTarget "LockInBroWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86671E3A2F78D22A00AECA00 /* Debug */,
+				86671E3B2F78D22A00AECA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867838082F790A6D009A3DB6 /* Build configuration list for PBXNativeTarget "LockInBroMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867838062F790A6D009A3DB6 /* Debug */,
+				867838072F790A6D009A3DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8678381B2F790B7A009A3DB6 /* Build configuration list for PBXNativeTarget "LockInBroShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8678381C2F790B7A009A3DB6 /* Debug */,
+				8678381D2F790B7A009A3DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8678382D2F790BA3009A3DB6 /* Build configuration list for PBXNativeTarget "LockInBroShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8678382E2F790BA3009A3DB6 /* Debug */,
+				8678382F2F790BA3009A3DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C526AB2F78617A003020AD /* Build configuration list for PBXProject "LockInBroMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C526CF2F78617D003020AD /* Debug */,
+				86C526D02F78617D003020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C526D12F78617D003020AD /* Build configuration list for PBXNativeTarget "LockInBroMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C526D22F78617D003020AD /* Debug */,
+				86C526D32F78617D003020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C526D42F78617D003020AD /* Build configuration list for PBXNativeTarget "LockInBroMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C526D52F78617D003020AD /* Debug */,
+				86C526D62F78617D003020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C526D72F78617D003020AD /* Build configuration list for PBXNativeTarget "LockInBroMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C526D82F78617D003020AD /* Debug */,
+				86C526D92F78617D003020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86DB67762F78ACC4006F5BB4 /* XCRemoteSwiftPackageReference "WhisperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/WhisperKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86DB67772F78ACC4006F5BB4 /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86DB67762F78ACC4006F5BB4 /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 86C526A82F78617A003020AD /* Project object */;
+}
